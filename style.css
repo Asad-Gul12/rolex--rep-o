@@ -1,0 +1,494 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+.btnn:hover{
+    background-color: #005832;
+}
+.btnn{
+    background-color: #004d2c;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;/
+}
+
+.header {
+    margin-top: 0em;
+}
+
+.icon {
+    padding-left: 1em;
+    cursor: pointer;
+
+}
+
+.icn {
+    padding-top: ;
+
+}
+
+.icn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.maim {
+    width: 40em;
+    flex-wrap: wrap;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 18em;
+}
+
+.logoroles {
+    width: 16em;
+    padding-left: 10em;
+
+}
+
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    margin-top: em;
+}
+
+
+
+.menuw {
+    display: flex;
+    gap: 20px;
+}
+
+.menuw {
+    margin-right: 10em;
+}
+
+.underline-effect {
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.menuw a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 500;
+    position: relative;
+}
+
+.underline-effect::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background-color: green;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.underline-effect:hover::after {
+    transform: scaleX(1);
+}
+
+.underline-effect:hover {
+    /* font-weight: bold; */
+}
+
+.underline-effect:hover {
+    font-weight: 100;
+}
+
+/* Hamburger style (hidden by default) */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+
+
+.discover {
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: green;
+    border-radius: 20px;
+    padding: 10px
+    
+}
+
+.dis{
+    position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: right;
+    
+    margin-top: -240px;
+    /* z-index: 100px; */
+margin-left: 60em;
+}
+.aa{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding-bottom: 2em;
+  
+}.aaaa{
+    padding-left: 1em;}
+.aaa{
+    padding-left: 1em;
+}
+.imges{
+    margin-left: 6em;
+    margin-right: 6em;
+
+
+}
+.re{
+    padding-left: 1em;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 1em;
+}
+.proud{
+     position: absolute;
+     margin-top: -200px;
+     color: rgb(241, 241, 241);
+     /* font-weight: bolder; */
+     font-size: 25px;
+     /* border-color: aquamarine; */
+     /* stroke: aqua; */
+     /* font-size: 20px; */
+     padding-left: 4em;
+}
+.aaaa{
+     transition: transform 0.3s ease;
+
+}
+
+.aaaa:hover{
+      transform: scale(1.03); /* Sirf 3% zoom */
+
+}
+
+
+.idone{
+    margin-left: 10m;
+     margin-right: 10em;
+     display: flex;
+
+     flex-wrap: wrap;
+}
+
+
+.tolhead{
+    /* border: 2px solid black; */
+    margin-left: 7em;
+    margin-right: 6em;
+}
+.TWOS{
+
+display: flex;
+display: inline;
+}
+.pehlaimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pehlaaim{
+        display: flex;
+    flex-wrap: wrap;
+}
+.crousell{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.textinta{
+    font-weight: bolder;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-items: center; */
+    align-items: center;
+    margin-left: 45%;
+    margin-right:50%;
+}
+.instapic{
+     display: flex;
+    flex-wrap: wrap;
+}.onepicc{
+    padding-left: 1em;
+    cursor: pointer;
+    padding-bottom: 1em;
+}
+.shedule{
+   padding-left: 45%;
+   padding-right: 30%
+}
+.schefulea{
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact{
+ padding-left: 20%;
+   padding-right: 15%
+}
+.contact{
+    color: rgba(88, 88, 88, 0.945);
+    font-size: 15px;
+    /* padding-right:40px; */
+}
+
+.lasydbc{
+  filter: brightness(70%);
+}
+
+.formmm{
+    background-color:  white;
+    padding: 1em ;
+    border-radius: 10px;
+display: flex;
+position: absolute;
+margin-top: -22.5em;
+margin-left:36% ;
+}
+
+
+
+
+
+
+.footer {
+  background-color: #efefef;
+  padding: 40px 20px;
+  color: #444;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-size: 13px;
+  color: #c28e5c;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+/* Links inside footer list */
+.footer-col ul li a {
+  color: #444;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Subscribe section */
+.subscribe form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.subscribe input {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 15px 0 0 15px;
+  flex: 1;
+}
+
+.subscribe button {
+  padding: 6px 15px;
+  background-color: #004d2c;
+  color: white;
+  border: none;
+  font-size: 13px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: #004d2c;
+  margin-right: 12px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+hr {
+  margin: 30px 0 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .subscribe form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe input,
+  .subscribe button {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menuw {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 10px 0;
+        align-items: center;
+        gap: 10px;
+        z-index: 1000;
+    }
+    
+.dis{
+    position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: right;
+    font-size: 13px;
+    margin-top: -40px;
+    /* z-index: 100px; */
+margin-left: 10em;
+}
+
+    .menuw.active {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    ...
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    ...
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ...
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    ...
+}
